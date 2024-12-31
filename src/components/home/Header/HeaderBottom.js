@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
-import { FaSearch, FaUser, FaCaretDown, FaShoppingCart } from "react-icons/fa";
+import { FaSearch, FaUser, FaCaretDown, FaShoppingCart, FaHeart } from "react-icons/fa";
 import Flex from "../../designLayouts/Flex";
 import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
@@ -9,6 +9,7 @@ import { paginationItems } from "../../../constants";
 
 const HeaderBottom = () => {
   const products = useSelector((state) => state.shopReducer.products);
+  const wishproducts = useSelector((state) => state.shopReducer.wishProducts);
   const [show, setShow] = useState(false);
   const [showUser, setShowUser] = useState(false);
   const navigate = useNavigate();
@@ -167,6 +168,14 @@ const HeaderBottom = () => {
                 <FaShoppingCart />
                 <span className="absolute font-titleFont top-3 -right-2 text-xs w-4 h-4 flex items-center justify-center rounded-full bg-primeColor text-white">
                   {products.length > 0 ? products.length : 0}
+                </span>
+              </div>
+            </Link>
+            <Link to="/cart">
+              <div className="relative">
+                <FaHeart />
+                <span className="absolute font-titleFont top-3 -right-2 text-xs w-4 h-4 flex items-center justify-center rounded-full bg-primeColor text-white">
+                  {wishproducts.length > 0 ? wishproducts.length : 0}
                 </span>
               </div>
             </Link>
