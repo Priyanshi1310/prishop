@@ -35,3 +35,12 @@ To run the application locally, follow these steps:
    ### `npm start`
 
 The application will be accessible at http://localhost:3000 in your web browser
+
+## Dependencies
+- react
+- react-dom
+- react-router-dom
+- redux
+- react-redux
+- react-icons
+- tailwind CSS
