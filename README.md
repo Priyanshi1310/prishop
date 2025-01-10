@@ -26,11 +26,12 @@ The goal of this project is to:
 ## Getting Started
 To run the application locally, follow these steps:
 1. Clone the repository
-### `git clone https://github.com/Priyanshi1310/prishop.git`
+   ### `git clone https://github.com/Priyanshi1310/prishop.git`
 2. Navigate to the project directory:
-### `cd prishop`
+   ### `cd prishop`
 3. Install dependencies:
-### `npm install`
+   ### `npm install`
 4. Start the development server:
-### `npm start`
+   ### `npm start`
+
 The application will be accessible at http://localhost:3000 in your web browser
