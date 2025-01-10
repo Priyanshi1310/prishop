@@ -14,6 +14,14 @@ Welcome to the eCommerce React Project, a dynamic and user-friendly online shopp
 5. **Order Checkout:** Place orders with a straightforward and intuitive checkout process.
 6. **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
 
+## Objective
+
+The goal of this project is to:
+
+Demonstrate proficiency in React and its ecosystem.
+Implement reusable components and state management.
+Integrate front-end and back-end systems for a full-stack experience (if applicable).
+Provide a functional and visually appealing interface for users.
 
 ## Learn More
 
